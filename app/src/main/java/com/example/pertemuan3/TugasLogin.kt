@@ -41,6 +41,13 @@ fun TugasLoginView() {
                 contentDescription = "Logo",
                 modifier = Modifier.size(140.dp)
             )
+            Text(
+                text = "Fransdito Bayu Pratama",
+                color = Color.Blue,
+                fontSize = 18.sp,
+                fontWeight = FontWeight.Bold,
+                modifier = Modifier.padding(top = 4.dp)
+            )
         }
     }
 }
