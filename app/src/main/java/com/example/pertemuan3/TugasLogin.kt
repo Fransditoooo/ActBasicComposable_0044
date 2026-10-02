@@ -22,7 +22,12 @@ fun TugasLoginView() {
                 .padding(vertical = 32.dp, horizontal = 16.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            // Tempat komponen bertingkat
+            Text(
+                text = "Login",
+                color = Color.Blue,
+                fontSize = 28.sp,
+                fontWeight = FontWeight.Bold
+            )
         }
     }
 }
