@@ -71,6 +71,15 @@ fun TugasLoginView() {
                     .size(260.dp)
                     .clip(CircleShape)
             )
+            Image(
+                painter = painterResource(id = R.drawable.kaaba_photo),
+                contentDescription = "Foto",
+                contentScale = ContentScale.Crop,
+                modifier = Modifier
+                    .size(260.dp)
+                    .clip(CircleShape)
+                    .border(4.dp, Color.White, CircleShape)
+            )
         }
     }
 }
