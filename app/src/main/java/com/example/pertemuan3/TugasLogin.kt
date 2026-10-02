@@ -55,6 +55,22 @@ fun TugasLoginView() {
                 fontWeight = FontWeight.Bold,
                 modifier = Modifier.padding(top = 4.dp)
             )
+            Spacer(modifier = Modifier.height(24.dp))
+
+            Image(
+                painter = painterResource(id = R.drawable.kaaba_photo),
+                contentDescription = "Foto",
+                contentScale = ContentScale.Crop,
+                modifier = Modifier.size(260.dp)
+            )
+            Image(
+                painter = painterResource(id = R.drawable.kaaba_photo),
+                contentDescription = "Foto",
+                contentScale = ContentScale.Crop,
+                modifier = Modifier
+                    .size(260.dp)
+                    .clip(CircleShape)
+            )
         }
     }
 }
