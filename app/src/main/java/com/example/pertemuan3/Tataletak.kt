@@ -134,6 +134,8 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
                 }
             }
         }
+        // Tambahkan setelah tutup kurung Column bersarang
+        Spacer(modifier = Modifier.height(10.dp))
     }
 
 }
