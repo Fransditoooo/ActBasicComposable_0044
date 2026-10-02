@@ -34,6 +34,13 @@ fun TugasLoginView() {
                 fontSize = 14.sp,
                 modifier = Modifier.padding(top = 4.dp)
             )
+            Spacer(modifier = Modifier.height(24.dp))
+
+            Image(
+                painter = painterResource(id = R.drawable.logo_umy),
+                contentDescription = "Logo UMY",
+                modifier = Modifier.size(140.dp)
+            )
         }
     }
 }
