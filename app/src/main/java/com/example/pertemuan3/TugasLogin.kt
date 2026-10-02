@@ -48,6 +48,13 @@ fun TugasLoginView() {
                 fontWeight = FontWeight.Bold,
                 modifier = Modifier.padding(top = 4.dp)
             )
+            Text(
+                text = "20240140044",
+                color = Color.Black,
+                fontSize = 22.sp,
+                fontWeight = FontWeight.Bold,
+                modifier = Modifier.padding(top = 4.dp)
+            )
         }
     }
 }
