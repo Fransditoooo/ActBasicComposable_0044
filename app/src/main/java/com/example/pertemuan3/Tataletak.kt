@@ -136,6 +136,13 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
         }
         // Tambahkan setelah tutup kurung Column bersarang
         Spacer(modifier = Modifier.height(10.dp))
+        // Tambahkan di bawah Spacer
+        Box(
+            modifier = modifier.fillMaxWidth().height(300.dp).background(color = Color.Cyan),
+            contentAlignment = Alignment.Center
+        ) {
+
+        }
     }
 
 }
