@@ -10,6 +10,11 @@ fun TugasLoginView() {
     Box(
         modifier = Modifier.fillMaxSize()
     ) {
-        // Layout dasar
+        Image(
+        painter = painterResource(id = R.drawable.bg_masjid),
+        contentDescription = "Background",
+        contentScale = ContentScale.Crop,
+        modifier = Modifier.fillMaxSize()
+    )
     }
 }
