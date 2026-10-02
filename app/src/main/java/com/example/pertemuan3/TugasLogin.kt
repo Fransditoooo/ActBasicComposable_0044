@@ -38,7 +38,7 @@ fun TugasLoginView() {
 
             Image(
                 painter = painterResource(id = R.drawable.logo_umy),
-                contentDescription = "Logo UMY",
+                contentDescription = "Logo",
                 modifier = Modifier.size(140.dp)
             )
         }
