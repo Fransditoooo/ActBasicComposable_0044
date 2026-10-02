@@ -31,3 +31,15 @@ fun LoginScreen() {
         )
     }
 }
+
+@Composable
+fun TugasLogin() {
+    Box(
+        modifier = Modifier.fillMaxSize(),
+        contentAlignment = Alignment.Center
+    ) {
+        Text(
+            text = "Login"
+        )
+    }
+}
