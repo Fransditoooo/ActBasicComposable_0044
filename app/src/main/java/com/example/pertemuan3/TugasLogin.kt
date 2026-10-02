@@ -1,13 +1,11 @@
 package com.example.pertemuan3
 
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -21,7 +19,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
@@ -31,7 +28,7 @@ fun TugasLogin() {
         modifier = Modifier.fillMaxSize()
     ) {
         Image(
-        painter = painterResource(id = R.drawable.bg_masjid),
+        painter = painterResource(id = R.drawable.biru_dana),
         contentDescription = "Background",
         contentScale = ContentScale.Crop,
         modifier = Modifier.fillMaxSize()
@@ -43,7 +40,7 @@ fun TugasLogin() {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Text(
-                text = "Login",
+                text = "DANA",
                 color = Color.Blue,
                 fontSize = 28.sp,
                 fontWeight = FontWeight.Bold
@@ -57,7 +54,7 @@ fun TugasLogin() {
             Spacer(modifier = Modifier.height(24.dp))
 
             Image(
-                painter = painterResource(id = R.drawable.logo_umy),
+                painter = painterResource(id = R.drawable.bulet_photo),
                 contentDescription = "Logo",
                 modifier = Modifier.size(140.dp)
             )
@@ -78,27 +75,12 @@ fun TugasLogin() {
             Spacer(modifier = Modifier.height(24.dp))
 
             Image(
-                painter = painterResource(id = R.drawable.kaaba_photo),
-                contentDescription = "Foto",
-                contentScale = ContentScale.Crop,
-                modifier = Modifier.size(260.dp)
-            )
-            Image(
-                painter = painterResource(id = R.drawable.kaaba_photo),
+                painter = painterResource(id = R.drawable.bulet_photo),
                 contentDescription = "Foto",
                 contentScale = ContentScale.Crop,
                 modifier = Modifier
                     .size(260.dp)
                     .clip(CircleShape)
-            )
-            Image(
-                painter = painterResource(id = R.drawable.kaaba_photo),
-                contentDescription = "Foto",
-                contentScale = ContentScale.Crop,
-                modifier = Modifier
-                    .size(260.dp)
-                    .clip(CircleShape)
-                    .border(4.dp, Color.White, CircleShape)
             )
         }
     }
