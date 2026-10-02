@@ -108,7 +108,14 @@ fun TataletakRowColumn(modifier: Modifier) {
 fun TataletakBoxColumnRow(modifier: Modifier) {
     val gambar = painterResource(id = R.drawable.notasinaton)
     Column {
-
+        // Tambahkan di dalam Column utama TataletakBoxColumnRow
+        Box(
+            modifier = modifier.height(110.dp).background(color = Color.Yellow),
+            contentAlignment = Alignment.Center
+        ) {
+            // Konten Box Atas
+        }
     }
+
 }
 
