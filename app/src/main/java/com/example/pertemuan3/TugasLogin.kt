@@ -16,5 +16,13 @@ fun TugasLoginView() {
         contentScale = ContentScale.Crop,
         modifier = Modifier.fillMaxSize()
     )
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(vertical = 32.dp, horizontal = 16.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            // Tempat komponen bertingkat
+        }
     }
 }
